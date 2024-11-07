@@ -9,3 +9,9 @@ html {
 body {
     margin: 0;
 }
+
+.hero {
+    height: 70.3rem;
+    width: 100vw;
+    border: solid black 1px;
+}
