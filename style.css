@@ -80,3 +80,44 @@ body {
     width: 100vw;
     border: solid black 1px;
 }
+
+.rolling-text-container {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw; 
+  }
+  
+  .rolling-text-first {
+    display: inline-block;
+    font-size: 10rem;
+    padding-left: 50%;
+    animation: roll-first 50s linear infinite; 
+    animation-delay: 0s; 
+  }
+  
+  @keyframes roll-first {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .rolling-text-second {
+    display: inline-block;
+    font-size: 100px;
+    padding-left: 50%;
+    animation: roll-second 50s linear infinite; 
+    animation-delay: 0s; 
+  }
+  
+  @keyframes roll-second {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
