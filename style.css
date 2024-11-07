@@ -57,3 +57,26 @@ body {
     background-color: blue;
   }
   
+.read-more {
+    height: 84.8rem;
+    width: 100vw;
+    border: solid black 1px;
+}
+
+.newsletter {
+    height: 27.6rem;
+    width: 100vw;
+    border: solid black 1px;
+}
+
+.footer {
+    height: 36.9rem;
+    width: 100vw;
+    border: solid black 1px;
+}
+
+.rolling-text {
+    height: 13.5rem;
+    width: 100vw;
+    border: solid black 1px;
+}
