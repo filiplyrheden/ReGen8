@@ -27,3 +27,8 @@ body {
     width: 100vw;
     border: solid black 1px;
 }
+
+.swiper {
+    width: 50vw;
+    height: 19.8rem;
+  }
