@@ -19,7 +19,7 @@ body {
   height: 80vh;
   width: 100vw;;
   border: solid black 1px;
-  background-image: url("hero2.png");
+  background-image: url("images/hero2.png");
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center center;
@@ -58,18 +58,23 @@ h1 {
 
 
 .menu{
-  top: 4rem;
-  right: 1rem;
+  margin: 5rem 3rem;
   display: flex; 
   gap: 1rem; 
   justify-content: flex-end;
   align-items: flex-start;
+  color: #D47C17;
+  
 }
 
 .mockup {
   height: 53.5rem;
   width: 100vw;
   border: solid black 1px;
+  color: #D47C17;
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 1.5rem 2rem;
 }
 
 .carousel {
