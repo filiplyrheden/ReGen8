@@ -121,3 +121,7 @@ body {
       transform: translateX(0%);
     }
   }
+
+hr {
+  width:90%;
+  }
