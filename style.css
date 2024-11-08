@@ -37,8 +37,6 @@ p {
   border: solid black 1px;
   background-image: url("images/hero2.png");
   background-repeat: no-repeat; 
-  background-image: url("hero2.png");
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -142,10 +140,26 @@ h1 {
   right: 10px;
 }
 
+.collectionText{
+  color: #FEE29C;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .read-more {
   height: 84.8rem;
   width: 100vw;
   border: solid black 1px;
+  font-size: 3rem ;
+  /*background-image: ;*/
+}
+
+.readButton {
+  color: #FEEB98;
+  background-color: #6D1229;
+  border-radius: 1px;
+  padding: 0.75rem 1.5rem;
 }
 
 .newsletter {
