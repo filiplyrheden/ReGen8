@@ -25,37 +25,47 @@ body {
 .carousel {
   height: 29.1rem;
   width: 100vw;
+  position: relative;
+  overflow: hidden;
   border: solid black 1px;
 }
 
-.swiper {
-  margin-top: 4rem;
-  width: 50vw;
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.carousel-redbox {
-  width: 20rem;
-  height: 19.8rem;
-  background-color: red;
+.carousel-item {
+  min-width: 100%;
+  text-align: center;
 }
 
-.carousel-greenbox {
-    width: 20rem;
-    height: 19.8rem;
-    background-color: green;
-  }
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 
-  .carousel-bluebox {
-    width: 20rem;
-    height: 19.8rem;
-    background-color: blue;
-  }
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
   
 .read-more {
     height: 84.8rem;
