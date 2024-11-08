@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 html {
   font-size: 62.5%;
 }
@@ -41,11 +43,15 @@ body {
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 17.6rem;
+  height: 19.8rem;
+  flex-shrink: 0;
 }
 
 .carousel-item {
   min-width: 100%;
   text-align: center;
+  margin: 1.5rem;
 }
 
 .carousel-item img {
@@ -73,73 +79,150 @@ body {
   right: 10px;
 }
 
-
-  
 .read-more {
-    height: 84.8rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 84.8rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .newsletter {
-    height: 27.6rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 27.6rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .footer {
-    height: 36.9rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 36.9rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .rolling-text {
-    height: 13.5rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 13.5rem;
+  width: 100vw;
+}
+
+.bottom-logo-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12rem;
+  margin: 0;
 }
 
 .rolling-text-container {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100vw; 
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+}
+
+.rolling-text-first {
+  display: inline-block;
+  font-size: 2.4rem;
+  padding-left: 50%;
+  animation: roll-first 50s linear infinite;
+  animation-delay: 0s;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@keyframes roll-first {
+  0% {
+    transform: translateX(0%);
   }
-  
-  .rolling-text-first {
-    display: inline-block;
-    font-size: 10rem;
-    padding-left: 50%;
-    animation: roll-first 50s linear infinite; 
-    animation-delay: 0s; 
+  100% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes roll-first {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .rolling-text-second {
-    display: inline-block;
-    font-size: 100px;
-    padding-left: 50%;
-    animation: roll-second 50s linear infinite; 
-    animation-delay: 0s; 
-  }
-  
-  @keyframes roll-second {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
+}
+
 
 hr {
-  width:90%;
-  }
+  width: 90%;
+}
+
+/*Font*/
+.ibm-plex-sans-thin {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-extralight {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-light {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thin-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-sans-extralight-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-sans-light-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-sans-regular-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-sans-medium-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-sans-semibold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-sans-bold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
