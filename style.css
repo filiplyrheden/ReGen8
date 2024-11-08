@@ -33,11 +33,15 @@ body {
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 17.6rem;
+  height: 19.8rem;
+  flex-shrink: 0;
 }
 
 .carousel-item {
   min-width: 100%;
   text-align: center;
+  margin: 1.5rem;
 }
 
 .carousel-item img {
@@ -65,73 +69,71 @@ body {
   right: 10px;
 }
 
-
-  
 .read-more {
-    height: 84.8rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 84.8rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .newsletter {
-    height: 27.6rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 27.6rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .footer {
-    height: 36.9rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 36.9rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .rolling-text {
-    height: 13.5rem;
-    width: 100vw;
-    border: solid black 1px;
+  height: 13.5rem;
+  width: 100vw;
+  border: solid black 1px;
 }
 
 .rolling-text-container {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100vw; 
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+}
+
+.rolling-text-first {
+  display: inline-block;
+  font-size: 10rem;
+  padding-left: 50%;
+  animation: roll-first 50s linear infinite;
+  animation-delay: 0s;
+}
+
+@keyframes roll-first {
+  0% {
+    transform: translateX(0%);
   }
-  
-  .rolling-text-first {
-    display: inline-block;
-    font-size: 10rem;
-    padding-left: 50%;
-    animation: roll-first 50s linear infinite; 
-    animation-delay: 0s; 
+  100% {
+    transform: translateX(-100%);
   }
-  
-  @keyframes roll-first {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+}
+
+.rolling-text-second {
+  display: inline-block;
+  font-size: 100px;
+  padding-left: 50%;
+  animation: roll-second 50s linear infinite;
+  animation-delay: 0s;
+}
+
+@keyframes roll-second {
+  0% {
+    transform: translateX(100%);
   }
-  
-  .rolling-text-second {
-    display: inline-block;
-    font-size: 100px;
-    padding-left: 50%;
-    animation: roll-second 50s linear infinite; 
-    animation-delay: 0s; 
+  100% {
+    transform: translateX(0%);
   }
-  
-  @keyframes roll-second {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
+}
 
 hr {
-  width:90%;
-  }
+  width: 90%;
+}
