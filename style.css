@@ -13,6 +13,8 @@ body {
   background-color: #fff;
 }
 
+
+
 /* Media Query for Mobile */
 @media screen and (max-width: 576px) {
   .desktop-carousel {
@@ -89,6 +91,7 @@ p {
   background-position: center center;
   display: flex;
   justify-content: space-around;
+  min-width: none;
 }
 
 h1 {
