@@ -408,6 +408,20 @@ h1 {
   }
 }
 
+/*  @keyframes bounce {
+    50%, 100% {
+      transform: translate(0, 100px);
+    }
+  }
+
+.bounce {
+  animation: bounce 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: 0.5s;
+}
+
+*/
+
 hr {
   width: 90%;
 }
