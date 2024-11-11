@@ -88,7 +88,6 @@ h1 {
 .mockup {
   height: 53.5rem;
   width: 100vw;
-  border: solid black 1px;
   color: #D47C17;
   text-align: center;
   font-size: 1.9rem;
@@ -100,7 +99,6 @@ h1 {
   width: 100vw;
   position: relative;
   overflow: hidden;
-  border: solid black 1px;
 }
 
 .carousel-images {
