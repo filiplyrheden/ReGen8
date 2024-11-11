@@ -246,6 +246,18 @@ font-weight: 500;
   gap: 0.8rem;
 }
 
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+gap: 8rem;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
 .contact p {
   margin: 0;
 }
