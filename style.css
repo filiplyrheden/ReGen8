@@ -8,8 +8,6 @@ html {
   box-sizing: border-box;
 }
 
-/* <button class="readButton">Läs mer <img src="images/Pil.png"></button>*/
-
 body {
   margin: 0;
   background-color: #FFF;
@@ -187,21 +185,50 @@ margin-right: 1.3rem;
 }
 
 .newsletter form {
-  display:flex;
-  flex-direction:row;
-  margin-left: 2.2rem;
+display:flex;
+flex-direction:row;
+margin-left: 2.2rem;
+color: #727272;
+font-family: "IBM Plex Sans";
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 700;
 }
 
 .newsletter input {
   border:none;
-  border-radius: 28px;
+  border-radius: 2.8rem;
+  width: 21rem;
+  height: 3rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-wrapper input {
+  padding-right: 4rem;
+}
+
+.input-wrapper button {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+height: 2.2rem;
 }
 
 .newsletter button {
-  border-radius: 28px;
+border-radius: 28px;
 background-color: #727272;
-  background:gray;
-  color:white;
+color: #FFF;
+font-family: "IBM Plex Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
 }
 
 
@@ -273,7 +300,7 @@ background-color: #727272;
   font-style: normal;
   font-size: 12rem;
   margin: 0;
-  color: #6D1229;
+  color: #000000;
 }
 
 
@@ -294,7 +321,7 @@ background-color: #727272;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 600;
   font-style: italic;
-  color: #6D1229;
+  color: #000000;
 }
 
 @keyframes roll-first {
