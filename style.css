@@ -10,7 +10,55 @@ html {
 
 body {
   margin: 0;
-  background-color: #FFF;
+  background-color: #fff;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 576px) {
+  .desktop-carousel {
+    display: none;
+  }
+
+  .desktop-carousel-text {
+    display: none;
+  }
+
+  .desktop-carousel-image {
+    display: none;
+  }
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1024px) {
+  .carousel {
+    display: none;
+  }
+
+  .desktop-carousel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-carousel-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .desktop-carousel-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #666;
+  }
+
+  .desktop-carousel-image {
+    width: 20.3rem;
+    height: 30.2rem;
+    background: #e0e0e0;
+  }
 }
 
 b {
@@ -36,54 +84,50 @@ p {
   width: 100vw;
   border: solid black 1px;
   background-image: url("images/hero2.png");
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
   justify-content: space-around;
- 
-  
 }
 
 h1 {
   font-size: 4rem;
-  color: #D47C17;
+  color: #d47c17;
   margin: 0;
-  padding:0;
+  padding: 0;
   margin-top: -5px;
-
 }
 
 .firstParagraph {
-  color: #D47C17;
+  color: #d47c17;
   font-size: 2rem;
-
 }
 
-.firstParagraph{
+.firstParagraph {
   margin-top: 0%;
 }
 
-.intro{
+.intro {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-start;
   margin: 5rem 2rem;
 }
-  
+
 .menu {
   margin: 5rem 3rem;
-  display: flex; 
-  gap: 1rem; 
+  display: flex;
+  gap: 1rem;
   justify-content: flex-end;
   align-items: flex-start;
-  color: #D47C17;
+  color: #d47c17;
 }
 
 .mockup {
   height: 53.5rem;
   width: 100vw;
-  color: #D47C17;
+  color: #d47c17;
   text-align: center;
   font-size: 1.9rem;
   padding: 1.5rem 2rem;
@@ -136,7 +180,7 @@ h1 {
 }
 
 .collectionText {
-  color: #FEE29C;
+  color: #fee29c;
   margin-left: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -145,15 +189,12 @@ h1 {
 .read-more {
   height: 84.8rem;
   width: 100vw;
-  border: solid black 1px;
   font-size: 3rem;
- 
-  /*background-image: ;*/
 }
 
 .readButton {
-  color: #FEEB98;
-  background-color: #6D1229;
+  color: #feeb98;
+  background-color: #6d1229;
   border-radius: 1px;
   padding: 0.75rem 1.5rem;
   font-family: "IBM Plex Sans";
@@ -162,35 +203,35 @@ h1 {
 .newsletter {
   height: 27.6rem;
   width: 100vw;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .newsletter p {
-  color: #FFF;
-font-family: "IBM Plex Sans";
-font-size: 2.3rem;
-font-style: normal;
-font-weight: 700;
-line-height: 4.6rem;
-letter-spacing: 0.253rem;
-margin-top: 1.3rem;
-margin-left: 1.3rem;
-margin-right: 1.3rem;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.6rem;
+  letter-spacing: 0.253rem;
+  margin-top: 1.3rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
 }
 
 .newsletter form {
-display:flex;
-flex-direction:row;
-margin-left: 2.2rem;
-color: #727272;
-font-family: "IBM Plex Sans";
-font-size: 1.2rem;
-font-style: normal;
-font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.2rem;
+  color: #727272;
+  font-family: "IBM Plex Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .newsletter input {
-  border:none;
+  border: none;
   border-radius: 2.8rem;
   width: 21rem;
   height: 3rem;
@@ -212,19 +253,18 @@ font-weight: 700;
   border: none;
   background-color: transparent;
   cursor: pointer;
-height: 2.2rem;
+  height: 2.2rem;
 }
 
 .newsletter button {
-border-radius: 28px;
-background-color: #727272;
-color: #FFF;
-font-family: "IBM Plex Sans";
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
+  border-radius: 28px;
+  background-color: #727272;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
 }
-
 
 .footer {
   height: 36.9rem;
@@ -339,8 +379,6 @@ font-weight: 500;
   margin: 0;
   color: #000000;
 }
-
-
 
 .rolling-text-container {
   display: inline-block;
