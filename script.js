@@ -45,3 +45,10 @@ document.getElementById("regnjacka").addEventListener("mouseenter", function() {
     }
   });
   
+
+
+
+  window.addEventListener("scroll", () => {
+    console.log("Hello");
+  });
+  
