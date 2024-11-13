@@ -43,12 +43,4 @@ document.getElementById("regnjacka").addEventListener("mouseenter", function() {
     if (imageDiv.querySelector("img")) {
       imageDiv.querySelector("img").style.display = "none";
     }
-  });
-  
-
-
-
-  window.addEventListener("scroll", () => {
-    console.log("Hello");
-  });
-  
+  });  

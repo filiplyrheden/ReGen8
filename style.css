@@ -61,7 +61,7 @@ body {
 }
 
 b {
-  color: #000;
+  color: #ffffff;
   font-family: "IBM Plex Sans";
   font-size: 1.2rem;
   font-style: normal;
@@ -70,7 +70,7 @@ b {
 }
 
 p {
-  color: #000;
+  color: #ffffff;
   font-family: "IBM Plex Sans";
   font-size: 1.2rem;
   font-style: normal;
@@ -82,7 +82,8 @@ p {
   height: 80vh;
   width: 100vw;
   border: solid black 1px;
-  background-image: url("images/hero2.png");
+  /* background-image: url("images/hero2.png"); */
+  background-color: #9b9b9b;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -93,19 +94,19 @@ p {
 
 h1 {
   font-size: 4rem;
-  color: #d47c17;
+  color: #ffffff;
   margin: 0;
   padding: 0;
   margin-top: -5px;
 }
 
 .firstParagraph {
-  color: #d47c17;
-  font-size: 2rem;
-}
-
-.firstParagraph {
-  margin-top: 0%;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.6rem;
 }
 
 .intro {
@@ -113,6 +114,11 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   margin: 5rem 2rem;
+  font-family: "IBM Plex Sans";
+  font-size: 5.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.5rem;
 }
 
 .menu {
@@ -121,13 +127,13 @@ h1 {
   gap: 1rem;
   justify-content: flex-end;
   align-items: flex-start;
-  color: #d47c17;
+  color: #ffffff;
 }
 
 .mockup {
   height: 53.5rem;
   width: 100vw;
-  color: #d47c17;
+  color: #000;
   text-align: center;
   font-size: 1.9rem;
   padding: 1.5rem 2rem;
@@ -230,13 +236,12 @@ h1 {
 .read-more-button {
   display: flex;
   align-items: center;
-  gap: 1.3rem; 
+  gap: 1.3rem;
 }
 
 .read-more-button svg {
   vertical-align: middle;
 }
-
 
 .newsletter {
   height: 27.6rem;
