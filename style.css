@@ -13,8 +13,6 @@ body {
   background-color: #fff;
 }
 
-
-
 /* Media Query for Mobile */
 @media screen and (max-width: 576px) {
   .desktop-carousel {
@@ -192,14 +190,35 @@ h1 {
   height: 84.8rem;
   width: 100vw;
   font-size: 3rem;
+  background-color: #666;
+  display: flex;
+  flex-direction: column;
+justify-content: flex-end;
 }
 
-.readButton {
-  color: #feeb98;
-  background-color: #6d1229;
-  border-radius: 1px;
-  padding: 0.75rem 1.5rem;
+.read-more-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.read-more-text {
+  color: #ffffff;
   font-family: "IBM Plex Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104%;
+  text-transform: capitalize;
+}
+
+.read-more-button {
+  color: #ffffff;
+  background-color: #9B9B9B;;
+  border-radius: 0.1rem;
+  font-family: "IBM Plex Sans";
+  height: 2.09rem;
+  width: 8.29rem;
+  text-transform: capitalize;
 }
 
 .newsletter {
