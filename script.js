@@ -44,3 +44,16 @@ document.getElementById("regnjacka").addEventListener("mouseenter", function() {
       imageDiv.querySelector("img").style.display = "none";
     }
   });  
+
+  function openPopup() {
+    window.open("about:blank", "popupWindow", "width=400,height=300");
+}
+
+let popupOpened = false;
+
+window.addEventListener('scroll', function() {
+    if (!popupOpened && window.scrollY >= 1200) {
+        openPopup();
+        popupOpened = true;
+    }
+});
