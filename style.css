@@ -228,11 +228,28 @@ margin-right: auto;
   right: 10px;
 }
 
+.collection {
+  display: flex;
+  flex-direction: row;
+}
 .collectionText {
-  color: #fee29c;
+  color: #474747;
+  font-family: "IBM Plex Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   margin-left: 2rem;
-  font-size: 1.5rem;
-  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.collection-icon {
+  width: 1.2944rem;
+height: 1.3969rem;
+margin-top: 2rem;
+margin-left: 1rem;
+stroke-width: 0.1rem;
+stroke: #5C5C5C;
 }
 
 .read-more {
