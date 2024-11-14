@@ -190,16 +190,18 @@ nav {
 
 .carousel-images {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease;
   width: 17.6rem;
   height: 19.8rem;
   flex-shrink: 0;
+  overflow: hidden; 
 }
 
 .carousel-item {
   min-width: 100%;
   text-align: center;
   margin: 1.5rem;
+  flex: 0 0 100%;
 }
 
 .carousel-item img {

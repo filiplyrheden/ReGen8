@@ -2,12 +2,20 @@
 let currentIndex = 0;
 let startX = 0;
 let endX = 0;
+const swipeThreshold = 50; // Adjust this to make it more sensitive to short swipes
 
+// Smoothly update the carousel position
+function updateCarousel() {
+    const offset = -currentIndex * 100;
+    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+}
+
+// Move slide function with animation
 function moveSlide(direction) {
     const items = document.querySelectorAll('.carousel-item');
     const totalItems = items.length;
 
-    // Update the index based on direction
+    // Update index based on direction
     currentIndex += direction;
 
     // Loop back if reaching the first or last image
@@ -17,26 +25,28 @@ function moveSlide(direction) {
         currentIndex = 0;
     }
 
-    // Move the images
-    const offset = -currentIndex * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+    // Use requestAnimationFrame for smooth animation
+    requestAnimationFrame(updateCarousel);
 }
 
 // Detect touch events for swipe functionality
 const carousel = document.querySelector('.carousel-images');
 
 carousel.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].clientX;
+    if (e.touches.length === 1) { // Only track single-finger touches
+        startX = e.touches[0].clientX;
+        carousel.style.transition = 'none'; // Disable transition at touch start for a quick response
+        e.preventDefault(); // Prevent default scrolling
+    }
 });
 
 carousel.addEventListener('touchend', (e) => {
     endX = e.changedTouches[0].clientX;
     handleSwipe();
+    carousel.style.transition = 'transform 0.3s ease'; // Re-enable smooth transition after touch ends
 });
 
 function handleSwipe() {
-    const swipeThreshold = 50; // Minimum swipe distance in pixels to register as a swipe
-
     if (startX - endX > swipeThreshold) {
         // Swipe left
         moveSlide(1);
@@ -45,6 +55,9 @@ function handleSwipe() {
         moveSlide(-1);
     }
 }
+
+// Apply CSS for smoother transitions
+carousel.style.transition = 'transform 0.3s ease';
 
 
 //Desktop carousel
