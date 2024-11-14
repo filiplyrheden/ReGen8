@@ -93,11 +93,15 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
-  color: #ffffff;
   margin: 0;
   padding: 0;
   margin-top: -5px;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 5.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
 }
 
 .firstParagraph {
