@@ -81,7 +81,6 @@ p {
 .hero {
   height: 80vh;
   width: 100vw;
-  border: solid black 1px;
   /* background-image: url("images/hero2.png"); */
   background-color: #9b9b9b;
   background-repeat: no-repeat;
@@ -158,6 +157,29 @@ nav {
   text-align: center;
   font-size: 1.9rem;
   padding: 1.5rem 2rem;
+}
+
+.mockup h3 {
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 1.9rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.mockup h3 span {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mockup-img {
+width: 28.8rem;
+height: 34.2rem;
+background-color: #666;
+margin-top: 4rem;
+margin-left: auto;
+margin-right: auto;
 }
 
 .carousel {
