@@ -173,12 +173,12 @@ nav {
 }
 
 .mockup-img {
-width: 28.8rem;
-height: 34.2rem;
-background-color: #666;
-margin-top: 4rem;
-margin-left: auto;
-margin-right: auto;
+  width: 28.8rem;
+  height: 34.2rem;
+  background-color: #666;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel {
@@ -203,8 +203,9 @@ margin-right: auto;
 }
 
 .carousel-item img {
-  width: 100%;
-  height: auto;
+  width: 17.6rem;
+  height: 19.8rem;
+  flex-shrink: 0;
 }
 
 .carousel-button {
@@ -244,11 +245,11 @@ margin-right: auto;
 
 .collection-icon {
   width: 1.2944rem;
-height: 1.3969rem;
-margin-top: 2rem;
-margin-left: 1rem;
-stroke-width: 0.1rem;
-stroke: #5C5C5C;
+  height: 1.3969rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  stroke-width: 0.1rem;
+  stroke: #5c5c5c;
 }
 
 .read-more {
