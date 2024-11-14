@@ -1,24 +1,51 @@
 //Mobile carousel
 let currentIndex = 0;
+let startX = 0;
+let endX = 0;
 
 function moveSlide(direction) {
     const items = document.querySelectorAll('.carousel-item');
     const totalItems = items.length;
-    
-    // Uppdatera index beroende på riktningen
+
+    // Update the index based on direction
     currentIndex += direction;
-    
-    // Om man bläddrar vidare bakåt från första eller framåt från sista bilden, gå tillbaka till första/sista
+
+    // Loop back if reaching the first or last image
     if (currentIndex < 0) {
         currentIndex = totalItems - 1;
     } else if (currentIndex >= totalItems) {
         currentIndex = 0;
     }
-    
-    // Flytta bilderna
+
+    // Move the images
     const offset = -currentIndex * 100;
     document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
 }
+
+// Detect touch events for swipe functionality
+const carousel = document.querySelector('.carousel-images');
+
+carousel.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+});
+
+carousel.addEventListener('touchend', (e) => {
+    endX = e.changedTouches[0].clientX;
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const swipeThreshold = 50; // Minimum swipe distance in pixels to register as a swipe
+
+    if (startX - endX > swipeThreshold) {
+        // Swipe left
+        moveSlide(1);
+    } else if (endX - startX > swipeThreshold) {
+        // Swipe right
+        moveSlide(-1);
+    }
+}
+
 
 //Desktop carousel
 document.getElementById("regnjacka").addEventListener("mouseenter", function() {
