@@ -45,15 +45,16 @@ document.getElementById("regnjacka").addEventListener("mouseenter", function() {
     }
   });  
 
-  function openPopup() {
-    window.open("about:blank", "popupWindow", "width=400,height=300");
-}
+  // Pop-up window
+//   function openPopup() {
+//     window.open("/", "popupWindow", "width=400,height=300");
+// }
 
-let popupOpened = false;
+// let popupOpened = false;
 
-window.addEventListener('scroll', function() {
-    if (!popupOpened && window.scrollY >= 1200) {
-        openPopup();
-        popupOpened = true;
-    }
-});
+// window.addEventListener('scroll', function() {
+//     if (!popupOpened && window.scrollY >= 1200) {
+//         openPopup();
+//         popupOpened = true;
+//     }
+// });
