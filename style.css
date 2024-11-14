@@ -109,8 +109,10 @@ h1 {
   font-family: "IBM Plex Sans";
   font-size: 1.7rem;
   font-style: italic;
-  font-weight: 600;
-  line-height: 1.6rem;
+  font-weight: 400;
+  line-height: 4.6rem;
+  letter-spacing: 0.187rem;
+  margin: 0;
 }
 
 .intro {
