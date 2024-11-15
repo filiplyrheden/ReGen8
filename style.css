@@ -190,16 +190,18 @@ nav {
 
 .carousel-images {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease;
   width: 17.6rem;
   height: 19.8rem;
   flex-shrink: 0;
+  overflow: hidden; 
 }
 
 .carousel-item {
   min-width: 100%;
   text-align: center;
   margin: 1.5rem;
+  flex: 0 0 100%;
 }
 
 .carousel-item img {
@@ -401,6 +403,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 2.4rem;
+  
 }
 
 .contact p {
@@ -420,6 +423,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 8rem;
+  width: 100%;
 }
 
 .about-text-col1 {
@@ -427,6 +431,20 @@ nav {
   flex-direction: column;
   gap: 1.3rem;
 }
+
+.about-text-col1, 
+.about-text-col2,
+.work-text-col1,
+.work-text-col2
+ {
+width: 33%;
+}
+
+/*.about-wrapper, */.work-wrapper
+{
+justify-content: flex-start;
+}
+
 
 .about p {
   margin: 0;
@@ -445,7 +463,8 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 8rem;
-  justify-content: space-between;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .work-text-col1 {
