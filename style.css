@@ -2,6 +2,7 @@
 
 :root {
   --orange: #E86405;
+  --body-bg: #FFF1CF;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: var(--body-bg);
 }
 
 /* Media Query for Mobile */
@@ -154,34 +155,29 @@ nav {
 
 .mockup {
   height: 53.5rem;
-  width: 100vw;
   color: #000;
   text-align: center;
   font-size: 1.9rem;
-  padding: 1.5rem 2rem;
 }
 
 .mockup h3 {
-  color: #000;
+  color: var(--orange);
   font-family: "IBM Plex Sans";
-  font-size: 1.9rem;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 2.4rem;
-}
-
-.mockup h3 span {
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1.5rem 2rem;
 }
 
 .mockup-img {
-  width: 28.8rem;
-  height: 34.2rem;
-  background-color: #666;
-  margin-top: 4rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100vw;
+  height: 42rem;
+  background-image: url(/images/mockup-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
 }
 
 .carousel {
