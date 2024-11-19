@@ -3,6 +3,7 @@
 :root {
   --orange: #E86405;
   --body-bg: #FFF1CF;
+  --greenish-text: #2A4A29;
 }
 
 html {
@@ -179,62 +180,12 @@ nav {
   background-position: center center;
   opacity: 0.5;
 }
-
-.carousel {
-  height: 29.1rem;
-  width: 100vw;
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel-images {
-  display: flex;
-  transition: transform 0.3s ease;
-  width: 17.6rem;
-  height: 19.8rem;
-  flex-shrink: 0;
-  overflow: hidden; 
-}
-
-.carousel-item {
-  min-width: 100%;
-  text-align: center;
-  margin: 1.5rem;
-  flex: 0 0 100%;
-}
-
-.carousel-item img {
-  width: 17.6rem;
-  height: 19.8rem;
-  flex-shrink: 0;
-}
-
-.carousel-button {
-  position: absolute;
-  top: 12rem;
-  transform: translate(0rem, -1rem);
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none;
-  cursor: pointer;
-  font-size: 1.5rem;
-  padding: 1rem;
-  border-radius: 50%;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
 .collection {
   display: flex;
   flex-direction: row;
 }
 .collectionText {
-  color: #474747;
+  color: var(--greenish-text);
   font-family: "IBM Plex Sans";
   font-size: 1.6rem;
   font-style: normal;
@@ -252,6 +203,10 @@ nav {
   stroke-width: 0.1rem;
   stroke: #5c5c5c;
 }
+
+.carousel-container {
+  height: 37rem;
+  }
 
 .read-more {
   height: 84.8rem;
