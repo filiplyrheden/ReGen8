@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 
+:root {
+  --orange: #E86405;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -80,8 +84,7 @@ p {
 .hero {
   height: 80vh;
   width: 100vw;
-  /* background-image: url("images/hero2.png"); */
-  background-color: #9b9b9b;
+  background-image: url("images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -94,7 +97,7 @@ h1 {
   margin: 0;
   padding: 0;
   margin-top: -5px;
-  color: #fff;
+  color: var(--orange);
   font-family: "IBM Plex Sans";
   font-size: 5.9rem;
   font-style: normal;
@@ -103,7 +106,7 @@ h1 {
 }
 
 .firstParagraph {
-  color: #fff;
+  color: var(--orange);
   font-family: "IBM Plex Sans";
   font-size: 1.7rem;
   font-style: italic;
@@ -140,7 +143,7 @@ nav {
 }
 
 .nav-text {
-  color: #fff;
+  color: var(--orange);
   font-family: "IBM Plex Sans";
   font-size: 1.6;
   font-style: normal;
