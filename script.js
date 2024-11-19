@@ -1,3 +1,18 @@
+//Mobile carousel
+let currentIndex = 0;
+
+function moveSlide(direction) {
+    const slides = document.querySelector('.carousel-slide');
+    const totalSlides = slides.children.length;
+
+    // Calculate the new index
+    currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+
+    // Apply transform based on the new index
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+
 //Desktop carousel
 document.getElementById("regnjacka").addEventListener("mouseenter", function() {
     const imageDiv = document.getElementById("desktop-carousel-image");
