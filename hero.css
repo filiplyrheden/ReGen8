@@ -1,0 +1,48 @@
+.hero {
+    height: 80vh;
+    width: 100vw;
+    background-image: url("images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+    min-width: none;
+  }
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+    color: var(--orange);
+    font-family: "IBM Plex Sans";
+    font-size: 5.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  
+  .firstParagraph {
+    color: var(--orange);
+    font-family: "IBM Plex Sans";
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4.6rem;
+    letter-spacing: 0.187rem;
+    margin: 0;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    font-family: "IBM Plex Sans";
+    font-size: 5.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  
