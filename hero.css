@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px){
 .hero {
     height: 80vh;
     width: 100vw;
@@ -9,6 +10,7 @@
     justify-content: space-around;
     min-width: none;
   }
+}
 
 h1 {
     margin: 0;
@@ -46,3 +48,41 @@ h1 {
     line-height: 4.5rem;
   }
   
+
+  @media screen and (min-width: 768px) {
+    .hero-desktop {  
+      height: 80vh;                    
+      width: 100vw;                   
+      background-image: url("images/hero.png");
+      background-repeat: no-repeat;
+      background-size: cover;           
+      background-position: center center;
+      display: flex;
+      justify-content: space-around;    
+    }
+    .hero{
+        display: none;
+    }
+    .svg-container {
+        display: flex;
+    }
+    .nav-item{
+        margin: 1rem;
+    }
+  }
+
+  .desktop-text{
+    color:#e86405;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .desktop-title{
+    margin-top: 1rem;
+  }
+
+  .desktop-sub{
+    
+  }
