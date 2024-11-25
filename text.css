@@ -1,4 +1,4 @@
-/*Font*/
+/*Fonts*/
 .ibm-plex-sans-thin {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 100;
@@ -82,4 +82,11 @@
     font-weight: 700;
     font-style: italic;
   }
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
   
