@@ -1,0 +1,66 @@
+.newsletter {
+    height: 27.6rem;
+    width: 100vw;
+    background-color: #d9d9d9;
+  }
+  
+  .newsletter p {
+    color: #fff;
+    font-family: "IBM Plex Sans";
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6rem;
+    letter-spacing: 0.253rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+  }
+  
+  .newsletter form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.2rem;
+    color: #727272;
+    font-family: "IBM Plex Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .newsletter input {
+    border: none;
+    border-radius: 2.8rem;
+    width: 21rem;
+    height: 3rem;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-wrapper input {
+    padding-right: 4rem;
+  }
+  
+  .input-wrapper button {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 2.2rem;
+  }
+  
+  .newsletter button {
+    border-radius: 28px;
+    background-color: #727272;
+    color: #fff;
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+  }
