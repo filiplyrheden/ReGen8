@@ -178,7 +178,6 @@ model-viewer {
   }
 }
 
-<<<<<<< HEAD
 .read-more {
   height: 84.8rem;
   width: 100vw;
@@ -230,8 +229,6 @@ model-viewer {
   vertical-align: middle;
 }
 
-=======
->>>>>>> c0b8968de0efe9d9132690b6b9e9b2d448e66690
 /*  @keyframes bounce {
     50%, 100% {
       transform: translate(0, 100px);
@@ -260,6 +257,8 @@ hr {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  display: flex;
+  
 }
 
 .popup-style {
@@ -268,8 +267,6 @@ hr {
   width: 80rem;
   height: 50rem;
   background-image: url("images/popup.jpeg");
-  display: flex;
-  flex-direction: column;
   font-family: "IBM Plex Sans";
   font-size: 2.3rem;
   font-style: normal;
@@ -278,25 +275,20 @@ hr {
   
 }
 
-
-
-.popup.content{
+/* .popup.content{
   display: flex;
+  justify-content: space-evenly; //Tror det är ganska useless
   
-}
+} */
 
-.popup.content img{
-  width: 20px;
-}
-
-.popup-content input {
+.popup-style input {
   border: none;
    border-radius: 2.8rem;
    width: 21rem;
   height: 3rem;    background-color: var(--body-bg);
 }
  
-.popup-content button {
+.popup-style button {
 background-color: #2A4A29;
 font-family: "IBM Plex Sans";
 font-size: 1.2rem;
@@ -307,6 +299,7 @@ margin: 1rem;
 color: #fff1cf;
 padding: 0.5rem 1.5rem;
 border-radius: 2.8rem;
+height: 4rem;
 }
 
 .newsletter-paragraph{
@@ -317,24 +310,32 @@ border-radius: 2.8rem;
   color: #2A4A29; 
 }
 
-.popup-column-one{
-  display: flex;
-  flex:1;
+/* .popup-column-one{
+  /* display: flex; */
+    /* flex:1;
 }
 
 .popup-column-two{
-  display: flex;
-  flex:1;
+  /* display: flex; */
+  
 
-}
+/* }
 
-.popup-columns {
-  display: flex; 
-  justify-content: space-between;
+.popup-columns { */
+  /* display: flex;  */
+  /* justify-content: space-between;
   gap: 20px; 
+  flex-direction: column; */
+/* } */ */ */
+
+#popup-img-one{
+  width: 200px;
+  height: 93px;
+
 }
 
-.popup img{
-  width:40px;
-  height: 20px;
+#popup-img-two{
+  width: 85px;
+  height: 108px;
+
 }
