@@ -1,0 +1,117 @@
+:root {
+  --orange: #e86405;
+  --body-bg: #fff1cf;
+  --dark-green: #2a4a29;
+  --light-green: #90a683;
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1024px) {
+  body .read-more {
+    display: none;
+  }
+
+  .read-more-desktop {
+    height: 73.5rem;
+    background-image: url(/images/read-more-desktop-bg.png);
+  }
+
+  .read-more-desktop-content {
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+
+  .read-more-desktop-content h3 {
+    color: var(--body-bg);
+    font-family: "IBM Plex Sans";
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .read-more-desktop-content p {
+    color: var(--body-bg);
+    font-family: "IBM Plex Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .read-more-desktop-content button {
+    display: flex;
+    width: 16rem;
+    height: 4.7rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3.6rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: var(--orange);
+    color: var(--Bg, #fff1cf);
+    font-family: "IBM Plex Sans";
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.152rem;
+    text-transform: uppercase;
+  }
+}
+
+.read-more {
+  height: 84.8rem;
+  width: 100vw;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("images/kelp.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.read-more-content {
+  display: inline;
+  width: 28rem;
+  height: 20rem;
+  margin-left: 2.8rem;
+  margin-bottom: 10rem;
+}
+
+.read-more-text {
+  color: var(--body-bg);
+  font-family: "IBM Plex Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.read-more-button {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  color: var(--body-bg);
+  background-color: var(--orange);
+  border-radius: 1rem;
+  border: none;
+  font-family: "IBM Plex Sans";
+  height: 4rem;
+  width: 10.29rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.read-more-button svg {
+  vertical-align: middle;
+}

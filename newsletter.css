@@ -5,6 +5,13 @@
   --light-green: #90a683;
 }
 
+  /* Media Query for Desktop */
+  @media screen and (min-width: 1024px) {
+    .newsletter {
+        display: none;
+    }
+    }
+
 .newsletter {
   height: 53rem;
   width: 100vw;

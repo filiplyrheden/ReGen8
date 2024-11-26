@@ -178,57 +178,6 @@ model-viewer {
   }
 }
 
-.read-more {
-  height: 84.8rem;
-  width: 100vw;
-  font-size: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-image: url("images/kelp.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.read-more-content {
-  display: inline;
-  width: 28rem;
-  height: 20rem;
-  margin-left: 2.8rem;
-  margin-bottom: 10rem;
-}
-
-.read-more-text {
-  color: var(--body-bg);
-  font-family: "IBM Plex Sans";
-  font-size: 3.6rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
-.read-more-button {
-  display: flex;
-  align-items: center;
-  gap: 1.3rem;
-  color: var(--body-bg);
-  background-color: var(--orange);
-  border-radius: 1rem;
-  border: none;
-  font-family: "IBM Plex Sans";
-  height: 4rem;
-  width: 10.29rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.read-more-button svg {
-  vertical-align: middle;
-}
-
 /*  @keyframes bounce {
     50%, 100% {
       transform: translate(0, 100px);
