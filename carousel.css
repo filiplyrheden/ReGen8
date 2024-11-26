@@ -1,73 +1,106 @@
+:root {
+  --orange: #e86405;
+  --body-bg: #fff1cf;
+  --dark-green: #2a4a29;
+  --light-green: #90a683;
+}
+
 /* Media Query for Desktop */
 @media screen and (min-width: 1024px) {
-    .carousel {
-      display: none;
-    }
-  
-    .desktop-carousel {
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .desktop-carousel-grid {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 50rem;
-      align-items: center;
-    }
-  
-    .desktop-carousel-text {
-      font-size: 1.5rem;
-      line-height: 1.8;
-      color: #666;
-    }
-  
-    .desktop-carousel-image {
-      height: 2rem;
-      width: 3rem;
-    }
+  .collection {
+    display: none;
   }
 
   .carousel-container {
-    height: 37rem;
-    position: relative;
-    left: 4rem;
-    width: 80%;
-    overflow: hidden;
-  }
-  
-  .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease;
-    padding-top: 1.5rem;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    object-fit: cover;
+    display: none;
   }
 
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-70%);
-    background-color: var(--body-bg);
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    font-size: 1.8rem;
+  .desktop-carousel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .discover-collection-text {
     color: var(--orange);
-    border-radius: 50%;
+    font-family: "IBM Plex Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
   }
-  
-  .carousel-btn.prev {
-    left: 1rem;
-    z-index: 2;
+
+  .hover-text {
+    color: var(--light-green);
+    font-family: "IBM Plex Sans";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148%;
+    letter-spacing: 0.528rem;
+    text-transform: uppercase;
+    margin: 0;
   }
-  
-  .carousel-btn.next {
-    right: 1rem;
-    z-index: 2;
+
+  .desktop-carousel-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 50rem;
+    align-items: center;
   }
+
+  .desktop-carousel-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #666;
+  }
+
+  .desktop-carousel-image {
+    height: 2rem;
+    width: 3rem;
+  }
+}
+
+.carousel-container {
+  height: 37rem;
+  position: relative;
+  left: 4rem;
+  width: 80%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding-top: 1.5rem;
+}
+
+.carousel-slide img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+  background-color: var(--body-bg);
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: var(--orange);
+  border-radius: 50%;
+}
+
+.carousel-btn.prev {
+  left: 1rem;
+  z-index: 2;
+}
+
+.carousel-btn.next {
+  right: 1rem;
+  z-index: 2;
+}
