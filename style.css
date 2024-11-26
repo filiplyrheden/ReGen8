@@ -20,6 +20,13 @@ html {
 body {
   margin: 0;
   background-color: var(--body-bg);
+
+}
+
+button:hover{
+  background-color: #e86405;
+  color:#2A4A29;
+  border: #000 2px solid;
 }
 
 /* Media Query for Mobile */
@@ -266,14 +273,14 @@ hr {
 
 .popup {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 25%;
+  left: 25%;
+  bottom: 50%;
   width: 84.6rem;
   height: 51.7rem;
   display: none; 
   justify-content: center;
   align-items: center;
-  z-index: 1000;
   display: flex;
   
 }
@@ -289,6 +296,7 @@ hr {
   font-style: normal;
   font-weight: 700;
   color: #2a4a29;
+  
   
 }
 
@@ -356,3 +364,4 @@ height: 4rem;
   height: 108px;
 
 }
+

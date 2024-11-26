@@ -10,6 +10,9 @@
     justify-content: space-around;
     min-width: none;
   }
+  .hero-desktop{
+    display: none;
+  }
 }
 
 h1 {
