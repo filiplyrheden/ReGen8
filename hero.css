@@ -87,3 +87,41 @@ h1 {
     color: black;
     display: flex;
   }
+
+  .desktop-read-more {
+    padding: 10px;
+    color: #2A4A29;
+    margin-bottom: 20rem; 
+    margin-left: 10rem;  
+  }
+  
+  .desktop-read-more p {
+    width: 341px;
+    font-weight: 400;
+    font-size: 2.6rem;
+    color: #2A4A29;
+  }
+  
+  .desktop-read-more h1 {
+    font-size: 3.6rem;
+    color: #2A4A29;
+    display: inline-block;
+  }
+
+  .tech-icon-desktop{
+    border-radius: 3.7rem;
+    background: var(--orange);
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.4rem 0.9rem;
+    display: inline-block;
+    color: black;
+    margin-left: 10rem;
+  }
+
+  .desktop-read-more {
+    position: absolute;
+    bottom:1px;
+    left: 10px; 
+    padding: 10px;
+}

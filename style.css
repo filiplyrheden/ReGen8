@@ -67,6 +67,16 @@ nav {
   width: 2.4rem;
 }
 
+.nav-text {
+  color: var(--orange);
+  font-family: "IBM Plex Sans";
+  font-size: 1.6;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0.4rem;
+}
+
 .menu-container{
   display: flex;
   justify-content: flex-end;
@@ -78,15 +88,7 @@ nav {
   margin-right: 10%; 
 }
 
-.nav-text {
-  color: var(--orange);
-  font-family: "IBM Plex Sans";
-  font-size: 1.6;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 0.4rem;
-}
+
 
 .mockup {
   height: 53.5rem;
