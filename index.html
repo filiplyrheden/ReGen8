@@ -12,7 +12,7 @@
       <p class="desktop-text">ReKelp®</p>
       <p class="desktop-text">Kollektioner</p>
       <p class="desktop-text">Bli medlem</p>
-      <h1 class="desktop-title">ReGen</h1>
+      <h1 class="desktop-title">ReGen</h1><br>
       <p class="desktop-sub">Framtidens mode idag</p>
         <div class="svg-container"><svg class="nav-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
          <g id="tabler:search">
@@ -143,6 +143,36 @@
     </div>
     </div>
 
+    <div class="popup" style="display: none;">
+      <div class="popup-style">
+        <div class="popup-content"> 
+          
+            <h2>Hej!</h2>
+            <form>
+              <div class="newsletter-paragraph">
+
+                Vi välkomnar dig till att gå med i vår klubb, som medlem får du ta del av erbjudanden, exklusiva event och förtur till våra nyheter.
+               
+                <p class="newsletter-paragraph"> 
+                  Du får även en välkomstrabatt på 15% till ditt första köp!
+                  
+                  //ReGen<p>
+                <input type="text" placeholder="Förnamn, Efternam">
+                <input type="email" placeholder="namn@mail.com">
+                
+              </div>
+              
+            </form>
+            <button onclick="closePopup()">Skicka</button>
+            <p id="popup-accept">Genom att fylla i dina uppgifter och klicka på skicka godkänner du våra användarvillkor.</p>
+            
+        </div>
+      </div>
+  </div>
+  
+  <button onclick="openPopup()">Newsletter</button>
+  
+
     <div class="newsletter"> 
       <h3>Hej!</h3>
       <img class="post-img" src="images/regen_post.png">
@@ -164,9 +194,6 @@
       <p class="terms">Genom att fylla i dina uppgifter och klicka på skicka godkänner du våra <b>användarvillkor.</b></p>
           </div>
   
-    <!-- <div class="popup">
-      <button onclick="openPopup()">newsletter</button>
-    </div> -->
 
     <div class="footer">
       <div class="contact">

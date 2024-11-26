@@ -24,12 +24,13 @@ textElements.forEach((element) => {
   });
 });
 
-  // Pop-up window
-//   function openPopup() {
-//     window.open("/", "popupWindow", "width=400,height=300");
-// }
+function openPopup() {
+    document.querySelector('.popup').style.display = 'block'; 
+}
 
-// let popupOpened = false;
+function closePopup() {
+    document.querySelector('.popup').style.display = 'none';
+}
 
 // window.addEventListener('scroll', function() {
 //     if (!popupOpened && window.scrollY >= 1200) {
