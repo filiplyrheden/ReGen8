@@ -19,10 +19,21 @@
   .read-more-desktop-content {
     display: flex;
     height: 50rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .read-more-desktop-content .text-wrapper {
+    margin-top: 35rem;
+    margin-left: 5rem;
+    width: 50%;
+  }
+
+
+  .read-more-desktop-content .button-wrapper {
+    margin-top: 50rem;
+    margin-left: 40rem;
+    width: 50%;
   }
 
   .read-more-desktop-content h3 {
@@ -32,6 +43,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 0;
   }
 
   .read-more-desktop-content p {
@@ -41,6 +53,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 50rem;
   }
 
   .read-more-desktop-content button {
@@ -51,10 +64,9 @@
     justify-content: center;
     align-items: center;
     gap: 3.6rem;
-    flex-shrink: 0;
     border-radius: 1rem;
     background: var(--orange);
-    color: var(--Bg, #fff1cf);
+    color: black;
     font-family: "IBM Plex Sans";
     font-size: 1.9rem;
     font-style: normal;
@@ -62,6 +74,7 @@
     line-height: 100%;
     letter-spacing: -0.152rem;
     text-transform: uppercase;
+    border: none;
   }
 }
 
