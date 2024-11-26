@@ -113,7 +113,16 @@ nav {
   background-size: cover;
   background-position: center center;
   opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+model-viewer {
+  height: 50rem;
+  width: 50rem;
+}
+
 .collection {
   display: flex;
   flex-direction: row;
