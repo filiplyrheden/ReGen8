@@ -129,12 +129,3 @@
     margin-top: 0;
     background-color: var(--dark-green);
   }
-  
-  @keyframes roll-first {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
