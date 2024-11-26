@@ -37,6 +37,22 @@ body {
   }
 }
 
+/* Media Query for Desktop */
+@media screen and (min-width: 1024px) {
+  body .mockup-img {
+    height: 55rem;
+}
+
+.mockup {
+  margin-bottom: 15rem;
+}
+
+.mockup h3 {
+  display: none;
+}
+
+}
+
 b {
   font-family: "IBM Plex Sans";
   font-size: 1.2rem;
@@ -110,11 +126,10 @@ nav {
 .mockup-img {
   width: 100vw;
   height: 42rem;
-  background-image: url(/images/mockup-bg.jpeg);
+  background-image: url(/images/papper_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  opacity: 0.5;
   display: flex;
   justify-content: center;
   align-items: center;
