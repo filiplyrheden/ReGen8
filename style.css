@@ -178,7 +178,6 @@ model-viewer {
   }
 }
 
-<<<<<<< HEAD
 .read-more {
   height: 84.8rem;
   width: 100vw;
@@ -230,8 +229,6 @@ model-viewer {
   vertical-align: middle;
 }
 
-=======
->>>>>>> c0b8968de0efe9d9132690b6b9e9b2d448e66690
 /*  @keyframes bounce {
     50%, 100% {
       transform: translate(0, 100px);
