@@ -113,7 +113,16 @@ nav {
   background-size: cover;
   background-position: center center;
   opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+model-viewer {
+  height: 50rem;
+  width: 50rem;
+}
+
 .collection {
   display: flex;
   flex-direction: row;
@@ -169,6 +178,7 @@ nav {
   }
 }
 
+<<<<<<< HEAD
 .read-more {
   height: 84.8rem;
   width: 100vw;
@@ -220,6 +230,8 @@ nav {
   vertical-align: middle;
 }
 
+=======
+>>>>>>> c0b8968de0efe9d9132690b6b9e9b2d448e66690
 /*  @keyframes bounce {
     50%, 100% {
       transform: translate(0, 100px);

@@ -17,11 +17,11 @@
 
   .desktop-carousel {
     width: 100vw;
-    height: 82rem;
+    height: 50rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2rem; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
   }
 
   .discover-collection-text {
@@ -45,6 +45,10 @@
     margin: 0;
   }
 
+  .hover-text:hover {
+    color: var(--orange);
+  }
+
   .desktop-carousel-text {
     font-size: 1.5rem;
     line-height: 1.8;
@@ -52,24 +56,24 @@
     flex-direction: column;
     gap: 1rem;
   }
-  }
+}
 
-  .desktop-carousel-image {
-
-    width: 63rem;
-height: 43rem;
-transform: rotate(92.281deg);
-flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+.desktop-carousel-image {
+  width: 66.75rem;
+  height: 44.25rem;
+  transform: rotate(92.281deg); 
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
 .desktop-carousel-image img {
-  width: 100%;
+  width: auto; 
   height: 100%;
   object-fit: cover;
+  transform: rotate(-92.281deg);
   transition: opacity 0.5s ease;
 }
 
