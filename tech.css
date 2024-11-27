@@ -1,7 +1,30 @@
 @media (min-width: 768px) {
+
+  body .tech-arrow-mobile {
+    display: none;
+  }
+
   body .technology {
     height: 80rem;
   }
+
+  body .tech-arrow-desktop {
+    position: absolute;
+    top: -33rem;
+    left: -18rem;
+  }
+  }
+
+  @media (max-width: 767px) {
+    .tech-arrow-desktop {
+      display: none;
+    }
+
+    body .tech-arrow-mobile {
+      position: absolute;
+      top: -14rem;
+      left: -16rem;
+    }
 }
 
 .technology {
@@ -59,5 +82,9 @@
     height: 3.5rem;
     padding: 0.4rem 0.9rem;
     margin-left: 6.5rem;
+  }
+
+  .tech-arrow-container {
+ position: relative;
   }
   
