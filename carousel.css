@@ -82,13 +82,13 @@
   position: relative;
   left: 4rem;
   width: 80%;
-  overflow: hidden;
 }
 
 .carousel-slide {
   display: flex;
   transition: transform 0.5s ease;
   padding-top: 1.5rem;
+  gap: 1rem;
 }
 
 .carousel-slide img {
@@ -99,9 +99,9 @@
 .carousel-btn {
   position: absolute;
   top: 50%;
-  transform: translateY(-70%);
+  transform: translateY(-100%);
   background-color: var(--body-bg);
-  border: none;
+  /* border: none; */
   padding: 1rem;
   cursor: pointer;
   font-size: 1.8rem;
@@ -110,11 +110,11 @@
 }
 
 .carousel-btn.prev {
-  left: 1rem;
+  left: -2rem;
   z-index: 2;
 }
 
 .carousel-btn.next {
-  right: 1rem;
+  right: -2rem;
   z-index: 2;
 }
