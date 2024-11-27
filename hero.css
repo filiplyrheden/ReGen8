@@ -128,3 +128,10 @@ h1 {
     left: 10px; 
     padding: 10px;
 }
+
+.hero-desktop img {
+ position:absolute;
+ right:50%;
+ left:50%;
+ top: 57%
+}

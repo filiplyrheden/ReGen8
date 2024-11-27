@@ -324,7 +324,7 @@ left: -80rem;
   vertical-align: middle;
 }
 
-/*  @keyframes bounce {
+ @keyframes bounce {
     50%, 100% {
       transform: translate(0, 100px);
     }
@@ -336,7 +336,7 @@ left: -80rem;
   animation-delay: 0.5s;
 }
 
-*/
+
 
 hr {
   width: 90%;
