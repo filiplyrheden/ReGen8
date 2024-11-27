@@ -175,6 +175,42 @@ top: -17rem;
 left: -54rem;
 }
 
+.product-description-1 {
+  color: var(--Main, #2A4A29);
+  font-family: "Caveat", cursive;
+font-size: 2.6rem;
+font-style: normal;
+position: absolute;
+font-weight: 400;
+line-height: normal;
+top: -2rem;
+left: 3rem;
+}
+
+.product-arrow-1 {
+  position: absolute;
+  top: 2rem;
+left: -11rem;
+}
+
+.product-description-2 {
+  color: var(--Main, #2A4A29);
+  font-family: "Caveat", cursive;
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 22rem;
+left: 1rem;
+}
+
+.product-arrow-2 {
+  position: absolute;
+  top: 21rem;
+left: -18rem;
+}
+
 .rotate-text {
   color: var(--dark-green);
 text-align: center;
