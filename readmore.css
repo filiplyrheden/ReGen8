@@ -82,6 +82,22 @@ body .read-more-desktop {
     text-transform: uppercase;
     border: none;
   }
+
+  .read-more-graphics {
+    position: relative;
+  }
+
+  .button-arrow {
+    position: absolute;
+top: -16rem;
+left: -35rem;
+  }
+
+  .button-circle {
+    position: absolute;
+top: -7rem;
+left: -7rem;
+  }
 }
 
 .read-more {
