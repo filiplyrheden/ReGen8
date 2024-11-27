@@ -128,4 +128,19 @@
     color: var(--light-green);
     margin-top: 0;
     background-color: var(--dark-green);
+    
   }
+
+  
+
+@media (min-width: 768px) {
+  .footer {
+    display:none; 
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-desktop {
+   display:none;
+  }
+}
