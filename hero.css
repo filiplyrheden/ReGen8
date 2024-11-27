@@ -80,14 +80,16 @@ h1 {
   
   .desktop-text{
     color:#e86405;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: flex-start;
     margin-top: 1rem;
+    font-weight: 600;
   }
 
   .desktop-title{
     margin-top: 1rem;
+    margin-right: 25rem;
   }
 
   .desktop-sub{
