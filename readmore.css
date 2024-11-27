@@ -5,6 +5,12 @@
   --light-green: #90a683;
 }
 
+@media screen and (max-width: 767px) {
+body .read-more-desktop {
+  display: none;
+}
+}
+
 /* Media Query for Desktop */
 @media screen and (min-width: 1024px) {
   body .read-more {
