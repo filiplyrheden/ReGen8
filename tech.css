@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+  body .technology {
+    height: 80rem;
+  }
+}
+
 .technology {
     display: flex;
     height: 39.2rem;
