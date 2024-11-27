@@ -206,6 +206,10 @@
     top: 0;
     font-size: 39rem;
   }
+
+  p:hover {
+    color: var(--Hover, #A04300);
+  }
 }
 
 @media (max-width: 767px) {

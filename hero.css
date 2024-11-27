@@ -40,6 +40,10 @@
   .nav-item{
       margin: 1rem;
   }
+
+  .desktop-text:hover {
+    color: var(--Hover, #A04300);
+  }
 }
 
 h1 {
