@@ -135,6 +135,10 @@ body .kelp-text-arrow-mobile {
 body .rotate-icon-mobile {
   display: none;
 }
+
+body .rolling-text {
+  font-size: 6rem;
+}
 }
 
 b {
