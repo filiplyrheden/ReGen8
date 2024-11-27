@@ -29,7 +29,7 @@
     background-size: cover;           
     background-position: center calc(50% - 10rem); 
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;      
   }
   .hero{
       display: none;
@@ -131,8 +131,12 @@ h1 {
   .desktop-read-more {
     position: absolute;
     top:330px;
-    left: 140px; 
+    left: 60px; 
     
+}
+
+.desktop-read-more p{
+  margin-top: 2px;
 }
 
 .hero-desktop img {
