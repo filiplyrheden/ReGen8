@@ -152,6 +152,7 @@
     grid-template-columns: repeat(4, 1fr);
     margin: 4rem;
     margin-bottom: 0;
+    margin-top: 0;
     padding-top: 3rem;
   }
 
@@ -210,6 +211,18 @@
   p:hover {
     color: var(--Hover, #A04300);
   }
+
+  .footer-desktop .contact {
+padding-top: 0;
+  }
+
+  .footer-desktop .about {
+    margin-top: 0;
+      }
+
+      .footer-desktop .work {
+        margin-top: 0;
+          }
 }
 
 @media (max-width: 767px) {
