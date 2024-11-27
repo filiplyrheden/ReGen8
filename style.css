@@ -47,11 +47,11 @@ button:hover{
 /* Media Query for Desktop */
 @media screen and (min-width: 1024px) {
   body .mockup-img {
-    height: 55rem;
+    height: 75rem;
 }
 
 .mockup {
-  margin-bottom: 15rem;
+  margin-bottom: 30rem;
 }
 
 .mockup h3 {
@@ -142,9 +142,80 @@ nav {
   align-items: center;
 }
 
+.mockup-img-content {
+  position: relative;
+}
+
 model-viewer {
   height: 50rem;
   width: 50rem;
+}
+
+.regen-logo {
+  position: absolute;
+  top: -34rem;
+  left: 25rem;
+}
+
+.kelp-text {
+  color: var(--Accent, #E86405);
+  font-family: "Caveat", cursive;
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: -8rem;
+left: -65rem;
+}
+
+.kelp-text-arrow {
+  position: absolute;
+top: -17rem;
+left: -54rem;
+}
+
+.rotate-text {
+  color: var(--dark-green);
+text-align: center;
+font-family: "IBM Plex Sans";
+font-size: 3.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 21rem;
+left: -29rem;
+}
+
+.rotate-icon {
+  position: absolute;
+top: 30rem;
+left: -30rem;
+}
+
+.product-text-first {
+  color: #2A4A29;
+font-family: "IBM Plex Sans";
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 19rem;
+left: -80rem;
+}
+
+.product-text-second {
+  color: var(--dark-green);
+font-family: "IBM Plex Sans";
+font-size: 3.6rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: absolute;
+top: 21rem;
+left: -80rem;
 }
 
 .collection {
