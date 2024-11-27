@@ -42,7 +42,73 @@ button:hover{
   .desktop-carousel-image {
     display: none;
   }
-}
+
+  body .regen-logo {
+ display: none;
+  }
+
+body .product-description-2 {
+display: none;
+  }
+  
+  body .product-arrow-2 {
+   display: none;
+  }
+
+  body model-viewer {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  body .product-description-1 {
+  font-size: 2rem;
+  position: absolute;
+  top: 8rem;
+  left: -7rem;
+  }
+
+  .product-arrow-2-mobile {
+    position: absolute;
+    top: 1rem;
+    left: -12rem;
+  }
+  
+  body .product-arrow-1 {
+    display: none;
+  }
+
+  body .kelp-text {
+  font-size: 2rem;
+  position: absolute;
+  top: -14rem;
+  left: -33rem;
+  width: 10rem;
+  }
+
+  body .kelp-text-arrow-mobile {
+    position: absolute;
+    top: -5rem;
+    left: -32rem;
+  }
+
+    body .rotate-text {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 12rem;
+      left: -19rem;
+      }
+      
+      body .rotate-icon {
+     display: none;
+      }
+
+      body .rotate-icon-mobile {
+        position: absolute;
+      top: 18rem;
+      left: -18rem;
+      }
+  }
+
 
 /* Media Query for Desktop */
 @media screen and (min-width: 1024px) {
@@ -58,6 +124,17 @@ button:hover{
   display: none;
 }
 
+body .product-arrow-2-mobile {
+  display: none;
+}
+
+body .kelp-text-arrow-mobile {
+  display: none;
+}
+
+body .rotate-icon-mobile {
+  display: none;
+}
 }
 
 b {
