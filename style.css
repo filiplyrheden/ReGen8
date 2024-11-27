@@ -30,7 +30,7 @@ button:hover{
 }
 
 /* Media Query for Mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .desktop-carousel {
     display: none;
   }
